@@ -8,6 +8,7 @@ collections:
     label: Releases
     folder: docs/releases
     path: '{{slug}}'
+    create: true
     fields:
       - label: Title
         name: title

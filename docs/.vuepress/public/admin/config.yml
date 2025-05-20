@@ -1,3 +1,10 @@
 backend:
   name: github
   repo: foopod/docs-example
+  media_folder: "docs/.vuepress/static/images" # Media files will be stored in the repo under static/images/uploads
+  public_folder: "/images" #
+  collections:
+    - name: 'releases'
+      label: 'Releases'
+      folder: 'docs/releases'
+      slug: '{{slug}}'

@@ -1,10 +1,12 @@
 backend:
   name: github
   repo: foopod/docs-example
-  media_folder: "docs/.vuepress/static/images" # Media files will be stored in the repo under static/images/uploads
-  public_folder: "/images" #
-  collections:
-    - name: 'releases'
-      label: 'Releases'
-      folder: 'docs/releases'
-      slug: '{{slug}}'
+media_folder: docs/.vuepress/static/images
+public_folder: /images
+collections:
+  - name: 'releases'
+    label: 'Releases'
+    folder: 'docs/releases'
+    slug: '{{slug}}'
+site_url: https://soft-licorice-1397a5.netlify.app
+display_url: https://soft-licorice-1397a5.netlify.app
